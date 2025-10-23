@@ -22,8 +22,8 @@ Esta contagem deve fornecer os totais de lexias individuais, bem como os totais 
         - codificação em UTF-8 
 - Algoritmo de pesquisa Aho-Corasick:
     - máxima eficiência na busca de multiplos padrões (palavras/expressões)
-    (abordagem ingênua: varredura do texto por cada palavra; complexidade O(N*M), N=tamanho do texto, M=número total de caracteres nas palavras de busca)
-    - mæquina de estados finitos (ærvore de Trie com links de falha) a partir de todas as palavras de busca; processa o texto em uma única passagem, complexidade de tempo linear O(N+M+Z), onde Z=número de ocorrências encontradas
+    (abordagem ingênua: varredura do texto por cada palavra; complexidade **O(N*M)**, *N=tamanho do texto, M=número total de caracteres nas palavras de busca*)
+    - máquina de estados finitos (árvore de Trie com links de falha) a partir de todas as palavras de busca; processa o texto em uma única passagem, complexidade de tempo linear **O(N+M+Z)**, onde *Z=número de ocorrências encontradas*
 - busca deve ser "case insensitive"
 - busca deve encontrar palavras inteiras; não usar a abordagem de lemmificação da pesquisa
 - as listas de campos lexicais e os textos dos artigos precisam poder receber comentários (sinal # na primeira coluna); linhas comentadas não são processadas pelo programa
