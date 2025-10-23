@@ -18,6 +18,7 @@ Esta contagem deve fornecer os totais de lexias individuais, bem como os totais 
 - normalização: 
     - etapa de pré-processamento:
         - excluir pontuação e sinais diacríticos
+        - exclusão de "stop words" 
         - transformar letras em minúsculas
         - codificação em UTF-8 
 - Algoritmo de pesquisa Aho-Corasick:
