@@ -44,6 +44,7 @@ Quantidade de termos presentes na lista de campos lexicos
 Quantidade de palavras no texto do corpus
 Total de ocorrências encontradas no texto
 Número de termos únicos: termos, localizados no texto, ou seja, ocorrências > 0.
+Lista de palavras com as respectivas quantidades de ocorrência, ordenadas por quantidade e alfabeticamente
 ```
 
 
