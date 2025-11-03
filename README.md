@@ -47,10 +47,42 @@ Número de termos únicos: termos, localizados no texto, ou seja, ocorrências >
 Lista de palavras com as respectivas quantidades de ocorrência, ordenadas por quantidade e alfabeticamente
 ```
 
-
-
 ## Funcionamento
 
 A partir de de um conjunto de arquivos de campos lexicais e outro conjunto de arquivos de textos de artigo, o programa realiza uma etapa de pré-processamento, onde o texto é canonicalizado (conversao de letras a minúsculas, supressão de pontuação e sinais diacríticos, remoção de "stop words"), gerando assim um payload de trabalho. 
+
+## Constituição dos Corpora Documentais 
+
+- Corpus Eclesiástico: Atos pontifícios sobre a Franco-Maçonaria
+- Corpus Midiático: Artigos da imprensa quebequense sobre a Franco-Maçonaria 
+
+### **Nomenclatura**
+
+**Textos de atos pontifícios:**
+
+    [código da língua]-[iniciais do nome do texto]-[ano de publicação do texto]
+
+Ex: 
+
+`FR-IEA-1738` - Texto em francês de `In Eminenti Apostolatus`, publicado em 1738. 
+
+`FR-HG-1884` - Texto em francês de `Humanus Genus`, publicado em 1884.
+
+### **Metadados**
+
+Os metadados auxiliam na identificação e na referência dos textos utilizados no trabalho. Para cada corpus diferente, os campos de metadados se adaptam. 
+
+
+Corpus Eclesiástico
+
+Os metadados do corpus são o título, a data de publicação, o Papa autor do documento, a lingua na qual o documento está redigido e a fonte do documento. A seguir encontra-s o exemplo dos metadados da carta encíclica *Humanum Genus*: 
+
+    #
+    # Título : Humanum Genus
+    # Data   : 20/04/1884
+    # Autor  : Leão XIII
+    # Língua : Francês
+    # Fonte  : https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_18840420_humanum-genus.html
+    #
 
 
