@@ -1,0 +1,13 @@
+# Este arquivo define os termos de busca e seus agrupamentos.
+# Formato para grupos: [TermoBase, Variacao1, Variacao2]
+# Formato para termos simples: TermoSimples
+
+[Muito, muitos, muita, muitas]
+Java
+Algoritmo
+[Eficiência, eficiente, eficaz]
+Busca
+Texto
+Aho-Corasick
+uma única passagem
+não existe

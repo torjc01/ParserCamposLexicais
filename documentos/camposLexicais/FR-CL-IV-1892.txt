@@ -1,0 +1,58 @@
+# Este arquivo define os termos dos campos lexicais e seus agrupamentos.
+# Formato para grupos: [TermoBase, Variacao1, Variacao2]
+# Formato para termos simples: TermoSimples
+
+[force ennemie, forces ennemies]
+esprit maléfique
+guerre
+renverser
+[déchirer, déchiré, déchirée]
+cohortes
+[group hostil, groupes hostiles]
+secte maçonnique
+[Franc-maçonnerie, franc-maçon, maçonnique, maçon, maçonnerie] 
+interdit
+[ruse, ruses]
+[assaut impie, assauts impies]
+secte pernicieuse
+destruction
+indifférence irréfléchie
+gravité du danger
+[menacés, menacés, menacée, menacées]
+audace 
+infection toxique 
+envahit 
+artifices 
+attaque 
+mépris 
+[oppression juridique, oppressions juridiques]
+doctrine fausse et destructrice
+[mal, maux, maléfice, maléfices] 
+usurpation
+sans scrupules 
+insidieuse 
+dissimuler 
+[désorienter, désorienté, désorientée]
+[induit en erreur, induits en erreur]
+erreur 
+piège 
+nature dépravée 
+faiblesse d'esprit
+manque de discernement
+complicité secrète
+[lâche, lâches, lâcheté]
+[honteux, honteuse, honte]
+fausses apparences extérieures
+desseins cachés
+desseins 
+principes du naturalisme 
+impiété
+[stupidité, stupidités, stupide]
+restauration de la société civile
+maux aussi audacieux 
+secte ignoble
+paganisme 
+guerre à la religion 
+faibles 
+paresseux
+danger 
