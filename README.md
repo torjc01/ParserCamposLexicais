@@ -86,3 +86,12 @@ Os metadados do corpus são o título, a data de publicação, o Papa autor do d
     #
 
 
+## Referências
+
+Site de OCR:
+- [I2OCR francês](https://www.i2ocr.com/free-online-french-ocr)
+
+Ferramenta para análise léxica - IRaMuTeQ
+- [IRaMuTeQ](https://pratinaud.gitpages.huma-num.fr/iramuteq-website/)
+- [Manual em português](https://pratinaud.gitpages.huma-num.fr/iramuteq-website/documentation/manual_portuguese_Salviati.pdf)
+- [Tutorial em português](https://pratinaud.gitpages.huma-num.fr/iramuteq-website/documentation/Tutorial-iramuteq-em-portugues-22-11-2021.pdf)

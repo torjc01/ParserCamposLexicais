@@ -2,6 +2,8 @@
 # Formato para grupos: [TermoBase, Variacao1, Variacao2]
 # Formato para termos simples: TermoSimples
 
+[Franc-maçonnerie, franc-maçon, maçonnique, maçon, maçonnerie, franc macon, franc maconnerie, francs maçons, francs-maçons]
+[Liberi muratori]
 [force ennemie, forces ennemies]
 esprit maléfique
 guerre
@@ -9,12 +11,11 @@ renverser
 [déchirer, déchiré, déchirée]
 cohortes
 [group hostil, groupes hostiles]
-secte maçonnique
-[Franc-maçonnerie, franc-maçon, maçonnique, maçon, maçonnerie, franc macon, franc maconnerie]
+[secte maçonnique, sectes maçonniques]
 interdit
 [ruse, ruses]
 [assaut impie, assauts impies]
-secte pernicieuse
+[secte pernicieuse, sectes pernicieuses]
 destruction
 indifférence irréfléchie
 gravité du danger
