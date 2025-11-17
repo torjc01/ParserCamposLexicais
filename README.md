@@ -60,13 +60,13 @@ A partir de de um conjunto de arquivos de campos lexicais e outro conjunto de ar
 
 **Textos de atos pontifícios:**
 
-    [código da língua]-[iniciais do nome do texto]-[ano de publicação do texto]
+    [código da língua]-[ano de publicação do texto]-[iniciais do nome do texto]
 
 Ex: 
 
-`FR-IEA-1738` - Texto em francês de `In Eminenti Apostolatus`, publicado em 1738. 
+`FR-1738-IEA` - Texto em francês de `In Eminenti Apostolatus`, publicado em 1738. 
 
-`FR-HG-1884` - Texto em francês de `Humanus Genus`, publicado em 1884.
+`FR-1884-HG` - Texto em francês de `Humanus Genus`, publicado em 1884.
 
 ### **Metadados**
 
