@@ -1,0 +1,169 @@
+# Este arquivo define os termos dos campos lexicais e seus agrupamentos.
+# Formato para grupos: [TermoBase, Variacao1, Variacao2]
+# Formato para termos simples: TermoSimples
+
+[force ennemie, forces ennemies]
+esprit malefique
+guerre
+renverser
+[dechirer, dechire, dechiree]
+cohortes
+[group hostil, groupes hostiles]
+secte maconnique
+[franc-maconnerie, franc-macon, maconnique, macon, maconnerie, franc macon, franc maconnerie]
+interdit
+[ruse, ruses]
+[assaut impie, assauts impies]
+secte pernicieuse
+destruction
+indifference irreflechie
+gravite du danger
+[menaces, menaces, menacee, menacees]
+audace 
+infection toxique 
+envahit 
+artifices 
+attaque 
+mepris 
+[oppression juridique, oppressions juridiques]
+doctrine fausse et destructrice
+[mal, maux, malefice, malefices] 
+usurpation
+sans scrupules 
+insidieuse 
+dissimuler 
+[desorienter, desoriente, desorientee]
+[induit en erreur, induits en erreur]
+erreur 
+piege 
+nature depravee 
+faiblesse d'esprit
+manque de discernement
+complicite secrete
+[lache, laches, lachete]
+[honteux, honteuse, honte]
+fausses apparences exterieures
+desseins caches
+desseins 
+principes du naturalisme 
+impiete
+[stupidite, stupidites, stupide]
+restauration de la societe civile
+maux aussi audacieux 
+secte ignoble
+paganisme 
+guerre a la religion 
+faibles 
+paresseux
+danger 
+
+
+
+
+
+
+
+
+
+
+fr-cl-iv-1892 - campo lexical frances "inimica vis" 1892
+
+
+
+
+
+
+
+
+
+
+# natureza da sociedade 
+seita 
+sociedade secreta 
+conciliabulo 
+faccao 
+peste 
+
+secte 
+societe secrete
+conciliabule 
+faction 
+peste 
+
+# atributos morais e filosóficos 
+
+indiferentisme 
+naturalisme
+ateisme 
+relativisme 
+imoralite 
+pervesite 
+
+indiferentismo 
+naturalismo 
+ateismo 
+relativismo 
+imoralidade 
+perversidade 
+
+# ações e intenções 
+conspirar 
+maquinar 
+subverter 
+corromper 
+destruir a igreja ou o estado 
+
+# ritos e símbolos 
+juramento 
+segredo 
+ritos sacrilegos 
+trevas 
+
+# agentes 
+macons 
+obreiros das trevas
+inimigos da igreja
+
+
+
+
+
+
+
+
+
+
+# Este arquivo define os termos de busca e seus agrupamentos.
+# Formato para grupos: [TermoBase, Variacao1, Variacao2]
+# Formato para termos simples: TermoSimples
+
+[muito, muitos, muita, muitas]
+java
+algoritmo
+[eficiencia, eficiente, eficaz]
+busca
+texto
+aho-corasick
+uma unica passagem
+nao existe
+
+
+
+
+
+
+
+
+
+
+# ===============================
+# Fim do pré-processamento.
+# ===============================
+# Arquivos tratados nesta execução:
+#	- FR-CL-IV-1892.txt
+#	- Index.txt
+#	- exemploCampoLexical.txt
+#	- search_terms.txt
+# Total de 4 arquivos tratados
+# Resultado gravado no arquivo de saída documentos/preproc/normalizacao-2025-11-17-11:32:03.txt
+
