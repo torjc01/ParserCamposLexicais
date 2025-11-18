@@ -1,6 +1,6 @@
 # Este arquivo define os termos dos campos lexicais e seus agrupamentos.
 # Formato para grupos: [TermoBase, Variacao1, Variacao2]
-# Formato para termos simples: TermoSimples
+# Formato para termos simples: [TermoSimples]
 
 [Franc-maçonnerie, franc-maçon, maçonnique, maçon, maçonnerie, franc macon, franc maconnerie, francs maçons, francs-maçons]
 [Liberi muratori]
