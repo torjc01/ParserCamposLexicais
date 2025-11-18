@@ -10,8 +10,7 @@ import java.time.format.DateTimeFormatter;
 
 /**
  * Classe responsável por gerenciar a escrita no arquivo de saída do programa.
- * Gera um nome de arquivo único com base em um timestamp e garante que o
- * arquivo seja aberto e fechado corretamente.
+ * Permite especificar o nome do arquivo de saída no momento da criação.
  */
 class GerenciadorSaida {
     private final BufferedWriter writer;
@@ -19,26 +18,41 @@ class GerenciadorSaida {
 
     /**
      * Construtor para GerenciadorSaida.
-     * Cria um novo arquivo de saída com um nome único no formato
-     * `normalizacao-YYYY-MM-DD-HH:MM:SS.txt`.
+     * Cria um novo arquivo de saída com o nome especificado.
+     * Se o nome do arquivo for {@code null} ou vazio, um nome padrão com timestamp
+     * no formato `normalizacao-YYYY-MM-DD-HH:MM:SS.txt` será gerado.
      *
+     * @param nomeArquivo O nome desejado para o arquivo de saída.
      */
-    public GerenciadorSaida() {
-        LocalDateTime now = LocalDateTime.now();
-        DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH:mm:ss");
-        String timestamp = now.format(formatter);
-        nomeArquivoSaida = "documentos/preproc/normalizacao-" + timestamp + ".txt";
+    public GerenciadorSaida(String nomeArquivo) {
+        if (nomeArquivo == null || nomeArquivo.trim().isEmpty()) {
+            LocalDateTime now = LocalDateTime.now();
+            DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd-HH:mm:ss");
+            String timestamp = now.format(formatter);
+            this.nomeArquivoSaida = "normalizacao-" + timestamp + ".txt"; // Nome padrão se não fornecido
+            System.out.println("Nenhum nome de arquivo de saída fornecido. Gerando nome padrão: " + this.nomeArquivoSaida);
+        } else {
+            this.nomeArquivoSaida = nomeArquivo;
+        }
 
         try {
-            // Usa Files.newBufferedWriter para criar um BufferedWriter com UTF-8
-            // e garante que o arquivo é criado ou sobrescrito se já existir.
-            writer = Files.newBufferedWriter(Paths.get(nomeArquivoSaida), StandardCharsets.UTF_8);
-            System.out.println("Arquivo de saída criado: " + nomeArquivoSaida);
+            writer = Files.newBufferedWriter(Paths.get(this.nomeArquivoSaida), StandardCharsets.UTF_8);
+            System.out.println("Arquivo de saída criado: " + this.nomeArquivoSaida);
         } catch (IOException e) {
-            System.err.println("Erro ao inicializar o arquivo de saída " + nomeArquivoSaida + ": " + e.getMessage());
+            System.err.println("Erro ao inicializar o arquivo de saída " + this.nomeArquivoSaida + ": " + e.getMessage());
             throw new RuntimeException("Não foi possível criar o arquivo de saída.", e);
         }
     }
+
+    /**
+     * Sobrecarga do construtor para manter compatibilidade, gerando um nome de arquivo padrão.
+     * @deprecated Use {@link #GerenciadorSaida(String)} e forneça um nome de arquivo explícito.
+     */
+    @Deprecated
+    public GerenciadorSaida() {
+        this(null); // Chama o construtor principal com null para gerar um nome padrão
+    }
+
 
     /**
      * Escreve uma linha de texto no arquivo de saída, seguida por uma quebra de linha.

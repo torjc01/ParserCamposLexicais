@@ -10,7 +10,7 @@ import java.util.regex.Pattern;
  * e conversão para minúsculas.
  */
 
-class NormalizadorTexto {
+public class NormalizadorTexto {
 
     // Padrão de regex para remover TODA a pontuação
     private static final Pattern PADRAO_PONTUACAO_TOTAL = Pattern.compile("\\p{Punct}+");
