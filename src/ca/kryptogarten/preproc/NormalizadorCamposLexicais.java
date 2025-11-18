@@ -65,7 +65,7 @@ public class NormalizadorCamposLexicais {
     public static final String FLAG_OUTPUT_FILE_LONG = "--output-file";
 
     // Padrão para capturar o conteúdo dentro dos colchetes da entrada lexical.
-    private static final Pattern ENTRADA_LEXICAL_PATTERN = Pattern.compile("\\[(.*?)]");
+    private static final Pattern ENTRADA_LEXICAL_PATTERN = Pattern.compile("\\[(.*?)\\]");
 
     // Padrão para dividir a string de termos por vírgula seguida de zero ou mais espaços.
     private static final Pattern SEPARADOR_TERMOS_PATTERN = Pattern.compile(",\\s*");
@@ -205,7 +205,7 @@ public class NormalizadorCamposLexicais {
                 // e remover qualquer outra pontuação que não seja o underscore.
                 // A flag 'false' indica que não devemos preservar colchetes/chaves neste nível de normalização,
                 // já que estamos tratando termos individuais.
-                String termoFinalNormalizado = NormalizadorTexto.normalizar(termoComUnderscores, false, false, false);
+                String termoFinalNormalizado = NormalizadorTexto.normalizar(termoComUnderscores, false, false, true);
 
                 termosNormalizadosSet.add(termoFinalNormalizado);
             }
