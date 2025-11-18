@@ -198,7 +198,7 @@ public class NormalizadorCamposLexicais {
                 }
 
                 // 1. Converter espaços e hífens em underscores
-                String termoComUnderscores = termoTrimmed.replaceAll("[ -]", "_");
+                String termoComUnderscores = termoTrimmed.replaceAll("[\\' -]", "_");
 
                 // 2. Aplicar normalização de texto (remover pontuação extra, diacríticos, minúsculas)
                 // Chamada à NormalizadorTexto para remover diacríticos, converter para minúsculas
