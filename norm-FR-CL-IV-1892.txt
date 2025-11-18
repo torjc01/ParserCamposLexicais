@@ -1,0 +1,69 @@
+# --- Conteúdo normalizado de FR-CL-IV-1892.txt ---
+# Este arquivo define os termos dos campos lexicais e seus agrupamentos.
+# Formato para grupos: [TermoBase, Variacao1, Variacao2]
+# Formato para termos simples: TermoSimples
+
+[franc maconnerie, franc macon, maconnique, macon, maconnerie, francs macons]
+[liberi muratori]
+[force ennemie, forces ennemies]
+[esprit malefique]
+[guerre]
+[renverser]
+[dechirer, dechire, dechiree]
+[cohortes]
+[group hostil, groupes hostiles]
+[secte maconnique, sectes maconniques]
+[interdit]
+[ruse, ruses]
+[assaut impie, assauts impies]
+[destruction]
+[secte pernicieuse, sectes pernicieuses]
+[indifference irreflechie]
+[gravite du danger]
+[menaces, menacee, menacees]
+[audace]
+[infection toxique]
+[envahit]
+[artifices]
+[attaque]
+[mepris]
+[oppression juridique, oppressions juridiques]
+[doctrine fausse et destructrice]
+[mal, maux, malefice, malefices]
+[usurpation]
+[sans scrupules]
+[insidieuse]
+[dissimuler]
+[desorienter, desoriente, desorientee]
+[induit en erreur, induits en erreur]
+[erreur]
+[piege]
+[nature depravee]
+[faiblesse d esprit]
+[manque de discernement]
+[complicite secrete]
+[lache, laches, lachete]
+[honteux, honteuse, honte]
+[fausses apparences exterieures]
+[desseins caches]
+[desseins]
+[principes du naturalisme]
+[impiete]
+[stupidite, stupidites, stupide]
+[restauration de la societe civile]
+[maux aussi audacieux]
+[secte ignoble]
+[paganisme]
+[guerre a la religion]
+[faibles]
+[paresseux]
+[danger]
+# --- Fim do arquivo FR-CL-IV-1892.txt ---
+
+# ===========================================
+# Fim do pré-processamento de campos lexicais.
+# Arquivos de entrada tratados nesta execução:
+# FR-CL-IV-1892.txt
+# Total de 1 arquivos tratados
+# Resultado gravado no arquivo de saída norm-FR-CL-IV-1892.txt
+

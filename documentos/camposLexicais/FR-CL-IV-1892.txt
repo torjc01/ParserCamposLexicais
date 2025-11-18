@@ -5,55 +5,55 @@
 [Franc-maçonnerie, franc-maçon, maçonnique, maçon, maçonnerie, franc macon, franc maconnerie, francs maçons, francs-maçons]
 [Liberi muratori]
 [force ennemie, forces ennemies]
-esprit maléfique
-guerre
-renverser
+[esprit maléfique]
+[guerre]
+[renverser]
 [déchirer, déchiré, déchirée]
-cohortes
+[cohortes]
 [group hostil, groupes hostiles]
 [secte maçonnique, sectes maçonniques]
-interdit
+[interdit]
 [ruse, ruses]
 [assaut impie, assauts impies]
+[destruction]
 [secte pernicieuse, sectes pernicieuses]
-destruction
-indifférence irréfléchie
-gravité du danger
+[indifférence irréfléchie]
+[gravité du danger]
 [menacés, menacés, menacée, menacées]
-audace 
-infection toxique 
-envahit 
-artifices 
-attaque 
-mépris 
+[audace]
+[infection toxique]
+[envahit]
+[artifices]
+[attaque]
+[mépris]
 [oppression juridique, oppressions juridiques]
-doctrine fausse et destructrice
-[mal, maux, maléfice, maléfices] 
-usurpation
-sans scrupules 
-insidieuse 
-dissimuler 
+[doctrine fausse et destructrice]
+[mal, maux, maléfice, maléfices]
+[usurpation]
+[sans scrupules]
+[insidieuse]
+[dissimuler]
 [désorienter, désorienté, désorientée]
 [induit en erreur, induits en erreur]
-erreur 
-piège 
-nature dépravée 
-faiblesse d'esprit
-manque de discernement
-complicité secrète
+[erreur]
+[piège]
+[nature dépravée]
+[faiblesse d'esprit]
+[manque de discernement]
+[complicité secrète]
 [lâche, lâches, lâcheté]
 [honteux, honteuse, honte]
-fausses apparences extérieures
-desseins cachés
-desseins 
-principes du naturalisme 
-impiété
+[fausses apparences extérieures]
+[desseins cachés]
+[desseins]
+[principes du naturalisme]
+[impiété]
 [stupidité, stupidités, stupide]
-restauration de la société civile
-maux aussi audacieux 
-secte ignoble
-paganisme 
-guerre à la religion 
-faibles 
-paresseux
-danger 
+[restauration de la société civile]
+[maux aussi audacieux]
+[secte ignoble]
+[paganisme]
+[guerre à la religion]
+[faibles]
+[paresseux]
+[danger]
