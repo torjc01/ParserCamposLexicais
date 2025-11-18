@@ -53,6 +53,8 @@ public class PreProcessadorTexto {
     private static final String FLAG_PRESERVAR_COLCHETES_CHAVES_SHORT = "-pcc";
     private static final String FLAG_PRESERVAR_PONTUACAO_LONG = "--preservar-pontuacao";
     private static final String FLAG_PRESERVAR_PONTUACAO_SHORT = "-ppt";
+    private static final String FLAG_PRESERVAR_UNDERSCORE_LONG = "--preservar-underscore";
+    private static final String FLAG_PRESERVAR_UNDERSCORE_SHORT = "-pus";
 
 
     /**
@@ -69,12 +71,14 @@ public class PreProcessadorTexto {
             System.err.println("Flags disponíveis:");
             System.err.println("  " + FLAG_PRESERVAR_COLCHETES_CHAVES_LONG + " ou " + FLAG_PRESERVAR_COLCHETES_CHAVES_SHORT + ": Preserva colchetes [] e chaves {} na normalização.");
             System.err.println("  " + FLAG_PRESERVAR_PONTUACAO_LONG + " ou " + FLAG_PRESERVAR_PONTUACAO_SHORT + ": Preserva toda a pontuação na normalização.");
+            System.err.println("  " + FLAG_PRESERVAR_UNDERSCORE_LONG + " ou " + FLAG_PRESERVAR_UNDERSCORE_SHORT + ": Preserva toda underscore na normalização.");
             System.exit(1);
         }
 
         List<String> argumentosLista = new ArrayList<>(Arrays.asList(args));
         boolean preservarColchetesEChaves = false;
         boolean preservarPontuacao = false;
+        boolean preservarUnderscore = false;
 
         // Analisar flags
         if (argumentosLista.remove(FLAG_PRESERVAR_COLCHETES_CHAVES_LONG) ||
@@ -87,6 +91,12 @@ public class PreProcessadorTexto {
                 argumentosLista.remove(FLAG_PRESERVAR_PONTUACAO_SHORT)) {
             preservarPontuacao = true;
             System.out.println("Flag detectada: Pontuação será preservada.");
+        }
+
+        if(argumentosLista.remove(FLAG_PRESERVAR_UNDERSCORE_LONG) ||
+                argumentosLista.remove(FLAG_PRESERVAR_UNDERSCORE_SHORT)) {
+            preservarUnderscore = true;
+            System.out.println("Flag detectada: underscore será preservado.");
         }
 
         if (argumentosLista.isEmpty()) {
@@ -145,7 +155,7 @@ public class PreProcessadorTexto {
                         gerenciadorSaida.escreverLinha(linha);
                     } else {
                         // Aplicar normalização, passando a flag para preservar colchetes/chaves
-                        String linhaNormalizada = NormalizadorTexto.normalizar(linha, preservarColchetesEChaves, preservarPontuacao);
+                        String linhaNormalizada = NormalizadorTexto.normalizar(linha, preservarColchetesEChaves, preservarPontuacao, preservarUnderscore);
                         gerenciadorSaida.escreverLinha(linhaNormalizada);
                     }
                 }
@@ -157,19 +167,6 @@ public class PreProcessadorTexto {
 
             // Mensagem final
             String outputFileName = gerenciadorSaida.getNomeArquivoSaida();
-
-            /*String listaArquivos = String.join("\n", nomesArquivosTratados);
-            String mensagemFinal = String.format(
-                    """
-                        # ===========================================
-                        # Fim do pré-processamento.
-                        # Arquivos tratados nesta execução:
-                        # %s
-                        # Total de %d arquivos tratados
-                        # Resultado gravado no arquivo de saída %s
-                    """,
-                    listaArquivos, contadorArquivosTratados, outputFileName
-            ); */
 
             // Formatar a lista de arquivos tratados para que cada um comece com "# "
             String listaArquivosComComentario = nomesArquivosTratados.stream()

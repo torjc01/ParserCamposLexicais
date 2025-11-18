@@ -17,6 +17,7 @@ class NormalizadorTexto {
     // Padrão de regex para remover pontuação, EXCLUINDO colchetes [] e chaves {}
     // Isso significa: "qualquer caractere de pontuação que NÃO seja [ ou ] ou { ou }"
     private static final Pattern PADRAO_PONTUACAO_EXCETO_COLCHETES_CHAVES = Pattern.compile("[\\p{Punct}&&[^\\[\\]{}]]+");
+    private static final Pattern PADRAO_PONTUACAO_PRESERVA_UNDERSCORE = Pattern.compile("[\\p{Punct}&&[^_]]+");
 
 
     /**
@@ -32,12 +33,19 @@ class NormalizadorTexto {
      *                                   não serão removidos da pontuação.
      * @return A string de texto normalizada.
      */
-    public static String normalizar(String texto, boolean preservarColchetesEChaves, boolean preservarPontuacao) {
+    public static String normalizar(
+            String texto,
+            boolean preservarColchetesEChaves,
+            boolean preservarPontuacao,
+            boolean preservarUnderscore
+    ) {
         String textoPontuacao;
         if (preservarColchetesEChaves) {
             // Usa o padrão que exclui colchetes e chaves
             textoPontuacao = PADRAO_PONTUACAO_EXCETO_COLCHETES_CHAVES.matcher(texto).replaceAll(" ");
-        } else if (preservarPontuacao) {
+        } else if (preservarUnderscore){
+            textoPontuacao = PADRAO_PONTUACAO_PRESERVA_UNDERSCORE.matcher(texto).replaceAll(" ");
+        }else if (preservarPontuacao) {
             textoPontuacao = texto;
         } else {
             // Remove toda a pontuação
@@ -63,10 +71,12 @@ class NormalizadorTexto {
      *
      * @param texto A string de texto a ser normalizada.
      * @return A string de texto normalizada.
-     * @deprecated Use {@link #normalizar(String, boolean)} para controlar a preservação de colchetes e chaves.
+     * @deprecated Use NormalizadorTexto.normalizar para controlar a preservação de colchetes e chaves.
      */
     @Deprecated
     public static String normalizar(String texto) {
-        return normalizar(texto, false, false); // Comportamento padrão: não preservar colchetes/chaves
+        // Comportamento padrão: aplicar todas as regras de normalizaçao
+        // texto, Preserva chaves e colchetes, Preserva underscore, Preserva toda a pontuaçao
+        return normalizar(texto, false, false, false);
     }
 }

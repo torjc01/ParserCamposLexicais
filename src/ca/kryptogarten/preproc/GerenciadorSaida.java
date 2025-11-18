@@ -53,7 +53,7 @@ class GerenciadorSaida {
 
     /**
      * Fecha o BufferedWriter, liberando os recursos associados ao arquivo de saída.
-     * É crucial chamar este método ao final da execução do programa para garantir
+     * É crucial chamar este metodo ao final da execução do programa para garantir
      * que todos os dados sejam gravados e os recursos liberados.
      *
      * @throws IOException Se ocorrer um erro de E/S ao fechar o arquivo.
