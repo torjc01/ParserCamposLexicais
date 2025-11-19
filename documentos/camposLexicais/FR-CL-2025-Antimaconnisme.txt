@@ -50,7 +50,7 @@
 [Destruction]
 [Excommunication]
 [Franc-maçonnerie, franc maçonnerie]
-[Franc-maçon, franc maçon, franc-maçons, franc maçons]
+[Franc-maçon, franc maçon, franc-maçons, franc maçons, francs-maçons, francs maçons]
 [Haine]
 [Hérésie]
 [Hostilité]
