@@ -1,5 +1,14 @@
-# Accusations (Acusações) - Ajustado para contexto papal
-# Este subcampo agora reflete melhor a natureza e a gravidade das acusações proferidas pela Igreja.
+#
+# Nome campo lexical    : CL Accusation
+# Nome arquivo          : FR-CL-2025-Accusation.txt
+# Arquivo corpus origem : nihil
+# Idioma                : Francês
+# Data                  : 08/11/2025
+# Autor                 : Julio Cesar Torres dos Santos
+# Codificação           : UTF-8
+# Descrição             : Este campo reflete a natureza e a gravidade das acusações proferidas pela Igreja.
+#                         Ajustado para contexto papal.
+#
 
 #Verbos
 

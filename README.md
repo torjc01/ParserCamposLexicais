@@ -19,10 +19,15 @@ Esta contagem deve fornecer os totais de lexias individuais, bem como os totais 
     - estatisticas básicas sobre os textos
 - normalização: 
     - etapa de pré-processamento:
-        - excluir pontuação e sinais diacríticos
-        - excluir "stop words" 
-        - transformar letras em minúsculas
-        - codificação em UTF-8 
+        - codificação em UTF-8: código de página padrão que representa de forma consistente textos em qualquer linguagem;
+        - excluir pontuação e sinais diacríticos: sinais que não permanecem na etapa de análise: aspas, apostrofo, cifrão,
+            porcentagem, asterisco, reticências, travessão;
+        - pontuação permitida: ponto, dois pontos, vírgula, interrogação e exclamação;
+        - excluir "stop words": palavras que não possuem valor léxico ou semântico; 
+        - transformar letras em minúsculas: simplifica a comparação automatizada pelo algoritmo; 
+        - palavras compostas ou expressões: para tratá-las como unidade, devem ser unidas por underscore; p.ex. recém_casado, Distrito_Federal;
+        - eliminação de expressões desnecessárias, como ah, hum, né, tá, que não possuem significado semântico.
+        
 - Algoritmo de pesquisa Aho-Corasick:
     - máxima eficiência na busca de multiplos padrões (palavras/expressões)
     (abordagem ingênua: varredura do texto por cada palavra; complexidade **O(N*M)**, *N=tamanho do texto, M=número total de caracteres nas palavras de busca*)
@@ -73,18 +78,35 @@ Ex:
 Os metadados auxiliam na identificação e na referência dos textos utilizados no trabalho. Para cada corpus diferente, os campos de metadados se adaptam. 
 
 
-Corpus Eclesiástico
+**Corpus Eclesiástico**
 
-Os metadados do corpus são o título, a data de publicação, o Papa autor do documento, a lingua na qual o documento está redigido e a fonte do documento. A seguir encontra-s o exemplo dos metadados da carta encíclica *Humanum Genus*: 
+Os metadados do corpus são o título, a data de publicação, o Papa autor do documento, a lingua na qual o documento está redigido e a fonte do documento. A seguir encontra-s o exemplo dos metadados da carta encíclica *Humanum Genus*:
 
     #
-    # Título : Humanum Genus
-    # Data   : 20/04/1884
-    # Autor  : Leão XIII
-    # Língua : Francês
-    # Fonte  : https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_18840420_humanum-genus.html
+    # Nome corpus   : Humanum Genus 
+    # Nome arquivo  : FR-1884-HG.txt
+    # Idioma        : Francês
+    # Data          : 20/04/1884
+    # Autor         : Leão XIII
+    # Codificação   : UTF-8 
+    # Fonte         : https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_18840420_humanum-genus.html
     #
 
+**Campos Lexicais** 
+
+Os campos lexicais são marcados com os seguintes metadados: 
+
+    #
+    # Nome campo lexical    : Antimaçonnisme
+    # Nome arquivo          : FR-CL-2025-Antimaçonnisme.txt
+    # Arquivo corpus origem : nihil
+    # Idioma                : Francês
+    # Data                  : 08/11/2025
+    # Autor                 : Julio Cesar Torres dos Santos
+    # Codificação           : UTF-8
+    # Descrição             : Este campo foca nos termos e conceitos associados à oposição e crítica à maçonaria,
+    #                         muitas vezes ligada a teorias da conspiração.
+    #
 
 ## Referências
 

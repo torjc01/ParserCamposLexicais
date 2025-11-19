@@ -1,6 +1,16 @@
+#
+# Nome campo lexical    : CL Théorie du complôt
+# Nome arquivo          : FR-CL-TheorieComplot.txt
+# Arquivo corpus origem : nihil
+# Idioma                : Francês
+# Data                  : 08/11/2025
+# Autor                 : Julio Cesar Torres dos Santos
+# Codificação           : UTF-8
+# Descrição             : Este subcampo inclui termos que podem ser usados em um contexto mais amplo de conspirações,
+#                         mas também ressoam com a linguagem de advertência contra males secretos.
+#
 
-
-# Verbos:
+# Verbos
 
 [Cacher]
 [Comploter]
@@ -19,7 +29,7 @@
 [Révéler]
 [Subvertir]
 
-# Substantivos:
+# Substantivos
 
 [Agenda caché]
 [Canular]
@@ -55,7 +65,7 @@
 [Théorie du complot, théories du complot]
 [Vice]
 
-# Adjetivos:
+# Adjetivos
 
 [Caché]
 [Conspirationniste]
@@ -75,7 +85,7 @@
 [Secret]
 [Suspect, Suspecte]
 
-# Expressões:
+# Expressões
 
 [C'est un complot!]
 [Conduire à l'hérésie]

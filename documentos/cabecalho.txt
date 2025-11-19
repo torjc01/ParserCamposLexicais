@@ -1,0 +1,25 @@
+CORPUS
+
+#
+# Nome corpus   :
+# Nome arquivo  :
+# Idioma        :
+# Data          :
+# Autor         :
+# Codificação   :
+# Fonte         :
+#
+
+
+CAMPOS LEXICAIS
+
+#
+# Nome campo lexical    :
+# Nome arquivo          :
+# Arquivo corpus origem :
+# Idioma                :
+# Data                  :
+# Autor                 :
+# Codificação           :
+# Descrição             :
+#

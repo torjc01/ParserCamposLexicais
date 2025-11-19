@@ -1,8 +1,19 @@
-# II. Anti-maçonnerie (Anti-maçonaria) - Significativamente Expandido com Linguagem Papal
-# Este subcampo é o que mais se beneficia da linguagem dos documentos papais, que condenam a maçonaria desde a In Eminenti (1738) de Clemente XII até a Humanum Genus (1884) de Leão XIII, e outras intervenções posteriores.
-# Documentos Papais Chave e seus termos latinos (e tradução aproximada):
+#
+# Nome campo lexical    : CL Antimaçonaria papal
+# Nome arquivo          : LA-CL-2025-Antimaçonnisme.txt
+# Arquivo corpus origem : nihil
+# Idioma                : Latim
+# Data                  : 08/11/2025
+# Autor                 : Julio Cesar Torres dos Santos
+# Codificação           : UTF-8
+# Descrição             : Este subcampo é o que mais se beneficia da linguagem dos documentos papais, que condenam a
+#                         maçonaria desde a In Eminenti (1738) de Clemente XII até a Humanum Genus (1884) de Leão XIII,
+#                         e outras intervenções posteriores. Documentos Papais Chave e seus termos latinos.
+#                         Anti-maçonnerie (Anti-maçonaria) - Significativamente Expandido com Linguagem Papal.
+#
 
-# Clemente XII, In Eminenti (1738):
+# Clemente XII, In Eminenti (1738)
+
 [societates, conventicula, coetus, aggregationes, conventicula Francs-Muratorum, Liberorum Murariorum]
 [sub anathemate]
 [sacramentum secreti]
@@ -11,13 +22,15 @@
 [suspicio]
 [poenam excommunicationis]
 
-# Bento XIV, Providas Romanorum Pontificum (1751):
+# Bento XIV, Providas Romanorum Pontificum (1751)
+
 [nefariae Sectae]
 [detrimentum Reipublicae Christanae]
 [naturalis honestatis]
 [secta perniciosa]
 
-# Pio IX, Multiplices inter (1865), Apostolicae Sedis (1869), Etsi multa (1873):
+# Pio IX, Multiplices inter (1865), Apostolicae Sedis (1869), Etsi multa (1873)
+
 [Societates Massonicas]
 [pestis]
 [secta tenebrosa]
@@ -26,7 +39,8 @@
 [perfidia]
 [conjurationes nefariae]
 
-# Leão XIII, Humanum Genus (1884):
+# Leão XIII, Humanum Genus (1884)
+
 [secta latomorum]
 [regnum Satanae]
 [naturalismus]

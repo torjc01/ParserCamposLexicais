@@ -1,6 +1,17 @@
-# Este subcampo foca nos termos e conceitos associados à oposição e crítica à maçonaria, muitas vezes ligada a teorias da conspiração.
+#
+# Nome campo lexical    : Antimaçonnisme
+# Nome arquivo          : FR-CL-2025-Antimaçonnisme.txt
+# Arquivo corpus origem : nihil
+# Idioma                : Francês
+# Data                  : 08/11/2025
+# Autor                 : Julio Cesar Torres dos Santos
+# Codificação           : UTF-8
+# Descrição             : Este campo foca nos termos e conceitos associados à oposição e crítica à maçonaria,
+#                         muitas vezes ligada a teorias da conspiração.
+#
 
-# Verbos:
+# Verbos
+
 [Accuser]
 [Anathématiser]
 [Attaquer]
@@ -21,7 +32,8 @@
 [Prohiber] 
 [Subvertir]
 
-# Substantivos:
+# Substantivos
+
 [Adepte]
 [Anathème]
 [Anti-maçonnerie]
@@ -77,6 +89,7 @@
 [Ténèbres]
 
 # Adjetivos
+
 [Antichrétien, Antichrétienne, Antichrétiens, Antichrétiennes]
 [Anti-maçonnique, Anti-maçonniques]
 [Apostat, Apostate, Apostats, Apostates]
@@ -107,7 +120,8 @@
 [Subversif, Subversive, Subversifs, Subversives]
 [Ténébreux, Ténébreuse, Ténébreuses]
 
-# Expressões:
+# Expressões
+
 [Le complot maçonnique]
 [Contre la foi et les mœurs]
 [Corrompre la jeunesse]
