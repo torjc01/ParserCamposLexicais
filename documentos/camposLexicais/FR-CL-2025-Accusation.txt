@@ -77,7 +77,7 @@
 [Véhément, Véhémente]
 [Solennel, Solennelle]
 
-# Expressões:
+# Expressões
 
 [Porter plainte]
 [Accuser quelqu'un de]
