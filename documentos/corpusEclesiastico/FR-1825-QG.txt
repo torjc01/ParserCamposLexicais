@@ -123,7 +123,11 @@ It is allowed to no man to falsify this Letter of Our Declaration, condemnations
 Donné à Rome, Saint-Pierre, en l'an 1826 de l'Incarnation du Seigneur, le 13 mars, dans la deuxième année de notre pontificat.
 
 #
-# Title  : Quo Graviora 
-# Date   : 13/03/1825
-# Author : Leão XII
-# Source : https://www.papalencyclicals.net/leo12/l12quogr.htm
+# Nome corpus   : Quo Graviora
+# Nome arquivo  : FR-1825-QG.txt
+# Idioma        : Francês
+# Data          : 13/03/1825
+# Autor         : Leão XII
+# Codificação   : UTF-8
+# Fonte         : https://www.papalencyclicals.net/leo12/l12quogr.htm
+#

@@ -1,4 +1,14 @@
-L'antimaçonnisme dans la presse québécoise   du XIXe siècle : évolution du discours
+#
+# Nome corpus   : L'antimaçonnisme dans la presse québécoise du XIXe siècle : évolution du discours
+# Nome arquivo  : AntimaconnismePresseQuebecoise.txt
+# Idioma        : Francês
+# Data          : 24/06/2025
+# Autor         : Julio Cesar Torres dos Santos
+# Codificação   : UTF-8
+# Fonte         : Cahiers John H Graham, Vol.1 No. 2
+#
+
+L'antimaçonnisme dans la presse québécoise du XIXe siècle : évolution du discours
 
 Par Julio Cesar Torres dos Santos, MM
 Loge Albion #2, GLQ 

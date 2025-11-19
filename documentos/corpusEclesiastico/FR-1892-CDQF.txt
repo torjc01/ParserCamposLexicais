@@ -74,12 +74,13 @@ Donné à Rome, Saint-Pierre, le huitième jour de décembre 1892, en la quinzi�
 
 LÉON XIII 
 
-
-
-
 #
-# Title  : Custodi di quella fede
-# Date   : 08/12/1982
-# Author : Leão XIII
-# Source : https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121892_custodi-di-quella-fede.html
-
+# Nome corpus   : Custodi di quella fede
+# Nome arquivo  : FR-1892-CDQF.txt
+# Idioma        : Francês
+# Data          : 08/12/1982
+# Autor         : Leão XIII
+# Codificação   : UTF-8
+# Fonte         : https://www.vatican.va/content/leo-xiii/en/encyclicals/documents/hf_l-xiii_enc_08121892_custodi-di-quella-fede.html
+# Observação    : Tradução realizada pelo pesquisador.
+#

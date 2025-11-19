@@ -1,10 +1,3 @@
-#
-# Título : Officio Sanctissimo
-# Data   : 22/12/1887
-# Autor  : Leão XIII
-# Língua : Italiano
-# Fonte  : https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_22121887_officio-sanctissimo.html
-# 
 
 OFFICIO SANCTISSIMO 
 
@@ -82,3 +75,16 @@ Dato a Roma, presso San Pietro, il 22 dicembre 1887, nel decimo anno del Nostro 
 
  
 LEONE PP. XIII
+
+
+
+#
+# Nome corpus   : Officio Sanctissimo
+# Nome arquivo  : IT-1887-OS.txt
+# Idioma        : Italiano
+# Data          : 22/12/1887
+# Autor         : Leão XIII
+# Codificação   : UTF-8
+# Fonte         : https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_22121887_officio-sanctissimo.html
+# Observação    : nihil
+#

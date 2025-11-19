@@ -6,8 +6,9 @@ CORPUS
 # Idioma        :
 # Data          :
 # Autor         :
-# Codificação   :
+# Codificação   : UTF-8
 # Fonte         :
+# Observação    :
 #
 
 
@@ -20,6 +21,6 @@ CAMPOS LEXICAIS
 # Idioma                :
 # Data                  :
 # Autor                 :
-# Codificação           :
+# Codificação           : UTF-8
 # Descrição             :
 #

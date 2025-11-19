@@ -1,4 +1,16 @@
-# natureza da sociedade 
+#
+# Nome campo lexical    : CL exemplo
+# Nome arquivo          : exemploCampoLexical.txt
+# Arquivo corpus origem : nihil
+# Idioma                : Português
+# Data                  : 08/11/2025
+# Autor                 : Julio Cesar Torres dos Santos
+# Codificação           : UTF-8
+# Descrição             : Exemplo minimo de campo lexical.
+#
+
+# Natureza da sociedade
+
 seita 
 sociedade secreta 
 conciliábulo 
@@ -11,7 +23,7 @@ conciliabule
 faction 
 peste 
 
-# atributos morais e filosóficos 
+# Atributos morais e filosóficos
 
 indiférentisme 
 naturalisme
@@ -27,20 +39,23 @@ relativismo
 imoralidade 
 perversidade 
 
-# ações e intenções 
+# Ações e intenções
+
 conspirar 
 maquinar 
 subverter 
 corromper 
 destruir a Igreja ou o Estado 
 
-# ritos e símbolos 
+# Ritos e símbolos
+
 juramento 
 segredo 
 ritos sacrílegos 
 trevas 
 
-# agentes 
+# Agentes
+
 maçons 
 obreiros das trevas
 inimigos da Igreja

@@ -44,8 +44,11 @@ Et bien que nous ayons déjà sévèrement proscrit cette société par deux éd
 Donné à Rome, près de Sainte-Marie-Majeure, en l'année de l'Incarnation du Seigneur 1821, le 13 septembre, dans la vingt-deuxième année de Notre pontificat.
 
 #
-# Title  : Ecclesiam a Jesu Christo
-# Date   : 13/09/1821
-# Author : Pio VII
-# Source : https://www.vatican.va/content/pius-vii/it/documents/bolla-ecclesiam-a-jesu-13-settembre-1821.html
-
+# Nome corpus   : Ecclesiam a Jesu Christo
+# Nome arquivo  : FR-1821-EAJC.txt
+# Idioma        : Francês
+# Data          : 13/09/1821
+# Autor         : Pio VII
+# Codificação   : UTF-8
+# Fonte         : https://www.vatican.va/content/pius-vii/it/documents/bolla-ecclesiam-a-jesu-13-settembre-1821.html
+#
