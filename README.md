@@ -110,6 +110,10 @@ Os campos lexicais são marcados com os seguintes metadados:
 
 ## Referências
 
+Convenção para commits [Conventional Commits](https://www.conventionalcommits.org/pt-br/v1.0.0/)
+
+Versionamento Semântico [SemVer](https://semver.org/lang/pt-BR/)
+
 Site de OCR:
 - [I2OCR francês](https://www.i2ocr.com/free-online-french-ocr)
 
