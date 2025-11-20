@@ -1,4 +1,4 @@
-CORPUS
+CORPUS ECLESIASTICO
 
 #
 # Nome corpus   :
@@ -11,6 +11,19 @@ CORPUS
 # Observação    :
 #
 
+
+CORPUS MIDIATICO
+
+# Nome jornal   :
+# Nome texto    :
+# Nome arquivo  :
+# Idioma        :
+# Data          :
+# Autor         :
+# Codificação   : UTF-8
+# Fonte         :
+# Descrição     :
+#
 
 CAMPOS LEXICAIS
 

@@ -33,3 +33,15 @@ aussi publiques et pressantes, ont pu en être dupes. Aujourd'hui il n'en saurai
 AUGUSTE ROUSSEL.
 
 
+CORPUS MIDIATICO
+
+# Nome jornal   : Le Courrier du Canada
+# Nome texto    : L'Eneyciique et les "Temps"
+# Nome arquivo  : FR-1884-05-28-LeCourrierCanada.txt
+# Idioma        : Francês
+# Data          : 28/05/1884
+# Autor         : Auguste Roussel
+# Codificação   : UTF-8
+# Fonte         : https://numerique.banq.qc.ca/patrimoine/details/52327/2538392
+# Descrição     :
+#

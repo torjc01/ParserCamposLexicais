@@ -92,6 +92,19 @@ Os metadados do corpus são o título, a data de publicação, o Papa autor do d
     # Fonte         : https://www.vatican.va/content/leo-xiii/la/encyclicals/documents/hf_l-xiii_enc_18840420_humanum-genus.html
     #
 
+**Corpus midiático**
+
+    # Nome jornal   : Le Courrier du Canada
+    # Nome texto    : La Haute Franc-Maçonnerie
+    # Nome arquivo  : FR-1902-11-22-LaVerite.txt
+    # Idioma        : Francês
+    # Data          : 22/11/1902
+    # Autor         : André Gaucher
+    # Codificação   : UTF-8
+    # Fonte         : https://numerique.banq.qc.ca/patrimoine/details/52327/2663950?docsearchtext=franc-maçonnerie
+    # Descrição     : Texto ultramontano, de ataque à franco-maçonaria. 
+    
+
 **Campos Lexicais** 
 
 Os campos lexicais são marcados com os seguintes metadados: 
