@@ -10,8 +10,6 @@
 #                         Ajustado para contexto papal.
 #
 
-[Ouvrier satanique, Ouvriers sataniques]
-
 # I. A Natureza da Maçonaria e seus Defeitos (selon Humanum Genus)
 
 # Verbos
@@ -30,6 +28,7 @@
 [Subvertir]
 [Tromper]
 [Usurper]
+
 
 # Substantivos
 
@@ -110,6 +109,7 @@
 [L'empire du mal]
 [L'esprit de la Franc-Maçonnerie]
 [Le royaume de Satan]
+[Ouvrier satanique, Ouvriers sataniques]
 [Pénétrer partout]
 [Sous un voile de secret]
 [Source de tous les maux]
