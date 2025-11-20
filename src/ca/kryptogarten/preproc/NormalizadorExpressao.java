@@ -6,8 +6,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -33,11 +31,11 @@ import java.util.stream.Stream;
  * como comentários e preservadas.
  * </p>
  *
- * @author SeuNome
+ * @author Julio Cesar Torres dos Santos
  * @version 1.0
- * @since 2023-10-27
+ * @since 2025-11-08
  */
-public class NormalizadorExpressoes {
+public class NormalizadorExpressao {
 
     private static final String COMMENT_PREFIX = "#";
     private static final String DEFAULT_OUTPUT_FILE = "norm_corpus_inter.txt";
@@ -77,7 +75,7 @@ public class NormalizadorExpressoes {
      * @param arquivoLexical O caminho para o arquivo contendo os campos lexicais normalizados.
      * @param nomeArquivoSaida O nome do arquivo de saída (se null, usa o padrão).
      */
-    public NormalizadorExpressoes(List<Path> arquivosCorpus, Path arquivoLexical, String nomeArquivoSaida) {
+    public NormalizadorExpressao(List<Path> arquivosCorpus, Path arquivoLexical, String nomeArquivoSaida) {
         if (arquivosCorpus == null || arquivosCorpus.isEmpty()) {
             throw new IllegalArgumentException("A lista de arquivos do corpus não pode ser vazia.");
         }
@@ -152,7 +150,7 @@ public class NormalizadorExpressoes {
                 List<String> linhas = Files.readAllLines(arquivo, StandardCharsets.UTF_8);
 
                 // Cabeçalho visual no arquivo de saída para separar arquivos originais
-                gerenciadorSaida.escreverLinha(COMMENT_PREFIX + " --- Início do processamento de: " + arquivo.getFileName() + " ---");
+                gerenciadorSaida.escreverLinha(COMMENT_PREFIX + " --- [NormalizadorExpressao.class] Início do processamento de: " + arquivo.getFileName() + " ---");
 
                 for (String linha : linhas) {
                     // 1. Se for comentário, copia ipsi litteris
@@ -248,7 +246,7 @@ public class NormalizadorExpressoes {
 
         try {
             // Instancia e executa
-            NormalizadorExpressoes normalizador = new NormalizadorExpressoes(
+            NormalizadorExpressao normalizador = new NormalizadorExpressao(
                     arquivosCorpus,
                     Paths.get(caminhoLexical),
                     DEFAULT_OUTPUT_FILE

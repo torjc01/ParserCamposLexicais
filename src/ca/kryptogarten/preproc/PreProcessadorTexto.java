@@ -41,9 +41,9 @@ import java.util.stream.Stream;
  * </ul>
  * </p>
  *
- * @author SeuNome
+ * @author Julio Cesar Torres dos Santos
  * @version 1.1
- * @since 2023-10-27
+ * @since 2025-11-08
  */
 public class PreProcessadorTexto {
 
