@@ -76,7 +76,7 @@ Execução do programa:
   ```
 
 Os arquivos intermediários ficam salvos no diretório `documentos/preproc` e podem ser visualizados para validação das análises realizadas. 
-Numa etapa posterior, eles serão automaticamente apagados na ultima etapa de execução do `ParserCamposLexicais`.
+Numa etapa posterior, eles serão automaticamente apagados na ultima etapa de execução do `ca.kryptogarten.ParserCamposLexicais`.
 
 ## Constituição dos Corpora Documentais 
 

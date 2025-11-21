@@ -1,3 +1,5 @@
+package ca.kryptogarten;
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
@@ -277,7 +279,7 @@ public class ParserCamposLexicais {
 
         // --- Validação dos argumentos ---
         if (args.length != 2) {
-            System.err.println("Uso: java ParserCamposLexicais <caminho_arquivo_termos> <caminho_arquivo_texto>");
+            System.err.println("Uso: java ca.kryptogarten.ParserCamposLexicais <caminho_arquivo_termos> <caminho_arquivo_texto>");
             return;
         }
 
