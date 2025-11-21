@@ -1,5 +1,8 @@
 package ca.kryptogarten.preproc;
 
+import ca.kryptogarten.utils.GerenciadorEntrada;
+import ca.kryptogarten.utils.GerenciadorSaida;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -7,12 +10,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -72,24 +73,7 @@ public class NormalizadorCamposLexicais {
      * @throws IOException Se houver erro ao acessar o sistema de arquivos.
      */
     public static List<Path> listarArquivosEntrada(Path caminhoEntrada) throws IOException {
-        if (Files.isDirectory(caminhoEntrada)) {
-            try (Stream<Path> stream = Files.walk(caminhoEntrada)) {
-                return stream
-                        .filter(Files::isRegularFile)
-                        .filter(p -> p.toString().toLowerCase().endsWith(".txt"))
-                        .collect(Collectors.toList());
-            }
-        } else if (Files.isRegularFile(caminhoEntrada) && caminhoEntrada.toString().toLowerCase().endsWith(".txt")) {
-            return Collections.singletonList(caminhoEntrada);
-        } else {
-            // Retorna lista vazia ou lança erro, dependendo da preferência.
-            // Aqui optamos por retornar vazio para permitir que o chamador decida,
-            // ou lançar erro se o arquivo explicitamente não existir.
-            if (!Files.exists(caminhoEntrada)) {
-                throw new IOException("O caminho informado não existe: " + caminhoEntrada);
-            }
-            return Collections.emptyList();
-        }
+        return GerenciadorEntrada.listarArquivosEntrada(caminhoEntrada);
     }
 
     /**

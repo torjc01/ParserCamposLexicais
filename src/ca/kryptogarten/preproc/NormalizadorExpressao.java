@@ -1,17 +1,17 @@
 package ca.kryptogarten.preproc;
 
+import ca.kryptogarten.utils.GerenciadorEntrada;
+import ca.kryptogarten.utils.GerenciadorSaida;
+
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
-import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 /**
  * <p>
@@ -81,18 +81,7 @@ public class NormalizadorExpressao {
      * @throws IOException Se houver erro ao acessar o sistema de arquivos.
      */
     public static List<Path> listarArquivosDoCorpus(Path caminhoEntrada) throws IOException {
-        if (Files.isDirectory(caminhoEntrada)) {
-            try (Stream<Path> stream = Files.walk(caminhoEntrada)) {
-                return stream
-                        .filter(Files::isRegularFile)
-                        .filter(p -> p.toString().toLowerCase().endsWith(".txt"))
-                        .collect(Collectors.toList());
-            }
-        } else if (Files.isRegularFile(caminhoEntrada)) {
-            return Collections.singletonList(caminhoEntrada);
-        } else {
-            throw new IOException("O caminho de corpus informado não existe ou não é válido: " + caminhoEntrada);
-        }
+        return GerenciadorEntrada.listarArquivosEntrada(caminhoEntrada);
     }
 
     /**
