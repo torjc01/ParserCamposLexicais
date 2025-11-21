@@ -30,3 +30,5 @@ replay_pid*
 *.iml
 
 norm*.txt
+
+preproc/
