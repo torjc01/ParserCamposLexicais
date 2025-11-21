@@ -54,7 +54,29 @@ Lista de palavras com as respectivas quantidades de ocorrência, ordenadas por q
 
 ## Funcionamento
 
-A partir de de um conjunto de arquivos de campos lexicais e outro conjunto de arquivos de textos de artigo, o programa realiza uma etapa de pré-processamento, onde o texto é canonicalizado (conversao de letras a minúsculas, supressão de pontuação e sinais diacríticos, remoção de "stop words"), gerando assim um payload de trabalho. 
+A partir de de um conjunto de arquivos de campos lexicais e outro conjunto de arquivos de textos de artigos da imprensa, o programa realiza uma etapa de pré-processamento, onde o texto é canonicalizado (conversao de letras a minúsculas, supressão de pontuação e sinais diacríticos, remoção de "stop words"), gerando assim um um dicionario do campo lexical e os textos do corpus normalizados.
+
+Pipeline de pré-processamento: 
+- **Etapa 1: Markup:** Prepara o dicionário, criando os underscores nos termos compostos.
+- **Etapa 2: NormalizadorExpressao:** Usa esse dicionário para varrer o corpus bruto e "proteger" as expressões compostas transformando-as em tokens com underscore (ex: "franco maçonaria" vira "franco_maçonaria").
+- **Etapa 3: NormalizadorCamposLexicais:** Limpa e padroniza o arquivo de dicionário (para uso futuro ou referência).
+- **Etapa 4: PreProcessamento:** Pega o corpus (que já tem as expressões com underscore) e faz a limpeza geral (caixa baixa, remoção de acentos, pontuação). Importante: Aqui devemos configurar para preservar underscores, senão o trabalho da etapa 2 seria desfeito.
+
+Execução do programa: 
+- Editar o programa RunnerPreprocessador e informar as variáveis abaixo: 
+  - dirLexicoBruto = diretório ou arquivo do campo lexical a ser utilizado; 
+  - dirCorpusBruto = diretório ou arquivo do corpus a ser analisado.
+- Executar o programa `ca.kryptogarten.RunnerPreprocessador` para realizar o pré-processamento e a limpeza dos dados originais: 
+  ```
+    java ca.kryptogarten.RunnerPreprocessador
+  ```
+- Executar o programa `ca.kryptogarten.ParserCamposLexicais` para realizar a análise: 
+  ```
+    java ca.kryptogarten.ParserCamposLexicais
+  ```
+
+Os arquivos intermediários ficam salvos no diretório `documentos/preproc` e podem ser visualizados para validação das análises realizadas. 
+Numa etapa posterior, eles serão automaticamente apagados na ultima etapa de execução do `ParserCamposLexicais`.
 
 ## Constituição dos Corpora Documentais 
 
@@ -65,13 +87,13 @@ A partir de de um conjunto de arquivos de campos lexicais e outro conjunto de ar
 
 **Textos de atos pontifícios:**
 
-    [código da língua]-[ano de publicação do texto]-[iniciais do nome do texto]
+    [código da língua]-[ano de publicação do texto]-[iniciais do nome do texto].txt
 
 Ex: 
 
-`FR-1738-IEA` - Texto em francês de `In Eminenti Apostolatus`, publicado em 1738. 
+`FR-1738-IEA.txt` - Texto em francês de `In Eminenti Apostolatus`, publicado em 1738. 
 
-`FR-1884-HG` - Texto em francês de `Humanus Genus`, publicado em 1884.
+`FR-1884-HG.txt` - Texto em francês de `Humanus Genus`, publicado em 1884.
 
 ### **Metadados**
 

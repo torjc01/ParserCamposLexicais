@@ -1,6 +1,6 @@
 #
 # Nome campo lexical    : Antimaçonnisme
-# Nome arquivo          : FR-CL-2025-Antimaçonnisme.txt
+# Nome arquivo          : FR-CL-2025-Antimaconnisme.txt
 # Arquivo corpus origem : nihil
 # Idioma                : Francês
 # Data                  : 08/11/2025
@@ -25,6 +25,7 @@
 [Détruire]
 [Diffamer]
 [Égarer]
+[Excommunication]
 [Excommunier] 
 [Frapper d'anathème]
 [Interdire] 
@@ -80,7 +81,7 @@
 [Rituel]
 [Ruine]
 [Salut des âmes]
-[Secret]
+# [Secret]
 [Secte]
 [Société clandestine]
 [Société secrète]
