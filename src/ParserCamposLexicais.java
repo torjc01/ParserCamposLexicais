@@ -17,18 +17,8 @@ import java.util.Set;
 /**
  * Classe para buscar eficientemente uma lista de palavras/expressões em um arquivo de texto.
  * Utiliza o algoritmo Aho-Corasick para realizar a busca em uma única passagem pelo texto.
- * 
- * - Adiciona um relatório de resumo com:
- *   - Quantidade de termos lógicos carregados.
- *   - Quantidade de palavras no texto de busca.
- *   - Total de ocorrências encontradas.
- * - Termos de busca são carregados de um arquivo com suporte a agrupamento.
- * - A busca é case-insensitive.
- * - Ignora linhas de comentário que começam com '#'.
- * - Exibe os resultados detalhados ordenados.
- * - Utiliza StandardCharsets.UTF_8 para leitura/escrita de arquivos.
  */
-public class TextSearcher {
+public class ParserCamposLexicais {
 
     /**
      * Encapsula o resultado do carregamento do arquivo de termos.
@@ -54,7 +44,7 @@ public class TextSearcher {
     private final Node root;
     private final Map<String, String> variationToBaseMap;
 
-    public TextSearcher(Map<String, String> variationToBaseMap) {
+    public ParserCamposLexicais(Map<String, String> variationToBaseMap) {
         if (variationToBaseMap == null || variationToBaseMap.isEmpty()) {
             throw new IllegalArgumentException("O mapa de variações para termos base não pode ser nulo ou vazio.");
         }
@@ -240,7 +230,7 @@ public class TextSearcher {
             int termCount = termData.logicalTermCount();
 
             // Instancia o buscador
-            TextSearcher searcher = new TextSearcher(variationToBaseMap);
+            ParserCamposLexicais searcher = new ParserCamposLexicais(variationToBaseMap);
 
             // Executa a busca e obtém resultados e contagem de palavras
             SearchResult searchResult = searcher.searchInFile(textFilePath);
