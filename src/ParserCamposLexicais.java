@@ -350,8 +350,8 @@ public class ParserCamposLexicais {
             System.out.printf("Total de palavras no texto........: %d%n", totalPalavrasTexto);
             System.out.printf("Total de ocorrências encontrados..: %d%n", totalOcorrenciasEncontradas);
             System.out.println("============================================================================");
-            System.out.printf("Índice de Densidade Lexical (IDL).: %.4f por mil palavras %n", idl);
-            System.out.printf("Índice de Cobertura Lexical (ICL).: %.2f %% %n", icl);
+            System.out.printf("Índice de Densidade Lexical (IDL).: %f por mil palavras %n", idl);
+            System.out.printf("Índice de Cobertura Lexical (ICL).: %f porcento (%%) %n", icl);
             System.out.println("============================================================================");
 
             System.out.println("--- Detalhamento de Ocorrências (Ordenado por Frequência) ---");
