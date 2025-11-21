@@ -1,4 +1,4 @@
-package ca.kryptogarten.preproc;
+package ca.kryptogarten.utils;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import java.time.format.DateTimeFormatter;
  * Classe responsável por gerenciar a escrita no arquivo de saída do programa.
  * Permite especificar o nome do arquivo de saída no momento da criação.
  */
-class GerenciadorSaida {
+public class GerenciadorSaida {
     private final BufferedWriter writer;
     private final String nomeArquivoSaida;
 

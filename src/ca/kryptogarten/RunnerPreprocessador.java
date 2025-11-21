@@ -1,4 +1,4 @@
-package ca.kryptogarten.sandbox;
+package ca.kryptogarten;
 
 import ca.kryptogarten.preproc.MarkupExpressao;
 import ca.kryptogarten.preproc.NormalizadorCamposLexicais;
