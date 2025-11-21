@@ -1,6 +1,6 @@
 #
 # Nome campo lexical    : Antimaçonnisme
-# Nome arquivo          : FR-CL-2025-Antimaçonnisme.txt
+# Nome arquivo          : FR-CL-2025-Antimaconnisme.txt
 # Arquivo corpus origem : nihil
 # Idioma                : Francês
 # Data                  : 08/11/2025
