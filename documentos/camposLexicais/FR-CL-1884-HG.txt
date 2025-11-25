@@ -3,7 +3,7 @@
 # Nome arquivo          : FR-CL-1884-HG.txt
 # Arquivo corpus origem : FR-1884-HG.txt
 # Idioma                : Francês
-# Data                  : 20, 04, 1884
+# Data                  : 20/04/1884
 # Autor                 : Leão XIII
 # Codificação           : UTF-8
 # Descrição             : Este campo reflete a natureza e a gravidade das acusações proferidas pela Igreja.

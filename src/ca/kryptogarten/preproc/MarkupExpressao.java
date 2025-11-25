@@ -146,6 +146,7 @@ public class MarkupExpressao {
             // Substitui o match original pelo novo conteúdo envolto em colchetes
             // appendReplacement lida com a substituição na string original
             matcher.appendReplacement(sb, "[" + Matcher.quoteReplacement(conteudoProcessado) + "]");
+            //matcher.appendReplacement(sb, Matcher.quoteReplacement(conteudoProcessado));
         }
         matcher.appendTail(sb);
         return sb.toString();
@@ -162,6 +163,7 @@ public class MarkupExpressao {
             return conteudoBruto;
         }
 
+        //String [] termos = StopWords.processarTexto(conteudoBruto).toString().split(",");
         String[] termos = conteudoBruto.split(",");
         List<String> termosNormalizados = new ArrayList<>();
 
