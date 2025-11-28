@@ -44,7 +44,8 @@ public class MarkupExpressao {
 
     // Regex para identificar os separadores que devem virar underscore:
     // \s (espaço), - (hífen), ' (apóstrofo)
-    private static final String SEPARATOR_REGEX = "[\\s\\-']+";
+    //private static final String SEPARATOR_REGEX = "[\\s'\\-]+";
+    private static final String SEPARATOR_REGEX = "[ '\\-]";
 
     private final List<Path> arquivosEntrada;
     private final String nomeArquivoSaida;

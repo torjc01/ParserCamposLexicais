@@ -43,7 +43,7 @@ public class NormalizadorExpressao {
 
         Substituicao(String termoLexical) {
             this.termoSubstituto = termoLexical;
-            String regexString = "(?i)\\b" + termoLexical.replaceAll("_", "[\\\\s-]+") + "\\b";
+            String regexString = "(?i)\\b" + termoLexical.replaceAll("_", "[\\\\s-']+") + "\\b";
             this.padraoBusca = Pattern.compile(regexString);
         }
     }
