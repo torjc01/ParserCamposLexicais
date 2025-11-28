@@ -26,8 +26,8 @@ public class RunnerPreprocessador {
         // Entradas
         // "documentos/camposLexicais/FR-CL-1884-HG.txt";
         // "documentos/corpusEclesiastico/FR-1884-HG.txt"
-        String dirLexicoBruto = "documentos/camposLexicais/cl-teste.txt"; // Diretório com arquivos .txt de termos dos campos lexicais
-        String dirCorpusBruto = "documentos/corpusEclesiastico/teste.txt"; // Diretório com textos originais dos corpora
+        String dirLexicoBruto = "documentos/camposLexicais/FR-CL-1884-NHG.txt"; // Diretório com arquivos .txt de termos dos campos lexicais
+        String dirCorpusBruto = "documentos/corpusEclesiastico/FR-1884-NHG.txt"; // Diretório com textos originais dos corpora
 
         //String dirLexicoBruto = "documentos/camposLexicais/FR-CL-1821-EAJC.txt"; // Diretório com arquivos .txt de termos dos campos lexicais
         //String dirCorpusBruto = "documentos/corpusEclesiastico/FR-1821-EAJC.txt"; // Diretório com textos originais dos corpora
