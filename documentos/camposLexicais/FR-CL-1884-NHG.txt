@@ -1,0 +1,112 @@
+
+# A Identificação do Inimigo (Nomes e Atributos)
+
+[Royaume de Satan]
+[Secte des Francs-Maçons]
+# [Société clandestine]
+[Ennemis]
+# [Puissance des ténèbres]
+[ténèbres]
+# [Peste]
+
+# 2. A Filosofia Condenada: O Naturalismo
+
+[Naturalisme]
+[Raison humaine]
+[Nier]
+# [Négation]
+[Indépendante] 
+[morale indépendante]
+[maîtresse et souveraine]
+
+# 3. A Estratégia de Dissimulação e Segredo
+
+[Secret]
+# [loi du secret inviolable]
+[inviolable]
+[Dissimulation]
+[Masque]
+[Ruse]
+[Artifices]
+# [les hommes simples]
+# [Promesses]
+
+# 4. O Ataque às Instituições (Igreja e Estado)
+# [Renverser]
+# [renverser de fond en comble toute la discipline religieuse et sociale]
+[Détruire]
+# [Laïcisme]
+# [état d'esclaves]
+# [Souveraineté du peuple]
+[Mariage civil]
+
+# 5 Expressoes
+
+# [Arracher le masque]
+[arracher du champ du Seigneur]
+[semences pernicieuses]
+# [Il faut arracher à la Franc-Maçonnerie le masque dont elle se couvre et la faire voir telle qu'elle est]
+# [Crime de lèse-majesté]
+# [Perversité des opinions]
+[Joug]
+# [joug pesant]
+[sociétés secrètes]
+# [vivre selon la pure nature]
+
+### 1. Julgamento Moral e Criminalização
+
+[Secte]
+[Association criminelle]
+# [Flagitieuse]
+[Perversité]
+# [la perversité des opinions]
+# [Impur]
+[impure contagion du poison ]
+# [Scélératesse]
+[Turpitude]
+
+### 2. Vocabulário de Perigo e Destruição (Ameaça Existencial)
+
+# [Peste]
+# [Poison]
+# [souffle empoisonné]
+# [breuvage empoisonné]
+[Pernicieux]
+[les fruits produits par la secte maçonnique sont pernicieux]
+[Monstrueux]
+[les monstrueux systèmes des socialistes et des communistes]
+# [Abîme]
+[ennemi capital]
+
+### 3. Vocabulário de Engano e Ocultação (Censura à Hipocrisia)
+
+[Artifices]
+# [Manœuvres]
+[Apparences mensongères]
+[Loi du secret]
+# [se cacher est leur règle constante]
+[Complots]
+# [Simulateurs]
+# [Filets]
+# [prendre les hommes dans leurs filets]
+
+### 4. Termos de Punição e Proibição Eclesiástica
+
+# [Anathème]
+[Interdit]
+# [Il est interdit à tout chrétien]
+[Défense]
+# [défense de s'affilier]
+# [Châtiments]
+# [Excommunication]
+
+### 5. Adjetivos de Violência e Oposição
+
+[Opiniâtre]
+[attaque si cruelle et si opiniâtre du christianisme]
+[Audace]
+# [l'audace des méchants]
+# [Effréné]
+# [audace effrénée]
+# [Satanique]
+# [esprit de Satan]
